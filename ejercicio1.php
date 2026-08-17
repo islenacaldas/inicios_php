@@ -1,3 +1,3 @@
 <?php
-phpinfo();
+echo "hola este es mi primer linea en php";
 ?>
