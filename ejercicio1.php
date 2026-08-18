@@ -53,12 +53,17 @@
         default:
             echo "<p>color no valido</p>";
     }
-            */
+           
 
-for($i=20; $i<30; $i++){
+     for($i=20; $i<30; $i++){
     echo "numero: ".$i. "<br>";
-}
-
+     }
+    */
+     $i=1;
+     while($i<=10){
+            echo "numero ".$i."<br>";
+            $i++;
+     }
     ?>
    
 
