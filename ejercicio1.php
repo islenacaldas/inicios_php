@@ -64,13 +64,37 @@
             echo "numero ".$i."<br>";
             $i++;
      }
-             */
+           
             //ciclo do- while
             $i=1;
             do{
                 echo "numero:". $i. "<br>";
                 $i++;
             }while ($i<5)
+    
+    //arreglos o arrays en php
+    
+    
+            $dias =["lunes", "Martes", "miercoles", "jueves", "viernes"];
+            {
+                echo "dias de la semana: " .$dias[0]."\n". $dias[1]."\n".$dias[2]."\n".$dias[3]."\n".$dias[4];
+            }
+   //funciones en javascript
+            */
+            function definirMes($mes){
+                switch($mes){
+                    case 1:
+                        return "<p>Enero</p>";
+                        break;
+                    case 2:
+                        return "<p>Febrero</p>";
+                        break;
+                    case 3:
+                        return "<p>Marzo</p>";
+                        break;
+                }
+            }
+         echo   definirMes(2);
 ?>
    
 
