@@ -37,7 +37,7 @@
         echo "b es mayor que a";
     }
     //creacion de switch
-    */
+    
     echo "<p> uso de switch </p>";
     $semaforo="verde";
     switch($semaforo){
@@ -53,6 +53,12 @@
         default:
             echo "<p>color no valido</p>";
     }
+            */
+
+for($i=20; $i<30; $i++){
+    echo "numero: ".$i. "<br>";
+}
+
     ?>
    
 
