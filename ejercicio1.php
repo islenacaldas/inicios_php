@@ -54,17 +54,24 @@
             echo "<p>color no valido</p>";
     }
            
-
+//ciclo for
      for($i=20; $i<30; $i++){
     echo "numero: ".$i. "<br>";
      }
-    */
+   //ciclo while
      $i=1;
      while($i<=10){
             echo "numero ".$i."<br>";
             $i++;
      }
-    ?>
+             */
+            //ciclo do- while
+            $i=1;
+            do{
+                echo "numero:". $i. "<br>";
+                $i++;
+            }while ($i<5)
+?>
    
 
 </body>
