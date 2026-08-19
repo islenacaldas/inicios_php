@@ -80,7 +80,7 @@
                 echo "dias de la semana: " .$dias[0]."\n". $dias[1]."\n".$dias[2]."\n".$dias[3]."\n".$dias[4];
             }
    //funciones en javascript
-            */
+        
             function definirMes($mes){
                 switch($mes){
                     case 1:
@@ -95,6 +95,7 @@
                 }
             }
          echo   definirMes(2);
+         */
 ?>
    
 
